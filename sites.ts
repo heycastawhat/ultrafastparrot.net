@@ -28,6 +28,12 @@ const SITES: {
     url: "https://personal.apcoding.com.au",
     email: "hello@apcoding.com.au",
   },
+   {
+    name: "Areg",
+    slug: "areg",
+    url: "https://aregus.me",
+    email: "aregazatyank@outlook.com",
+  },
 ];
 
 export default SITES.sort((a, b) => a.name.localeCompare(b.name));
