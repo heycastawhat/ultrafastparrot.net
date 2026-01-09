@@ -73,7 +73,7 @@ import SITES from "../../sites.ts";
                         >
                             <h2 class="text-xl break-words">{site.name}</h2>
                             <p class="text-foreground/75 text-sm overflow-hidden text-ellipsis whitespace-nowrap">
-                                {site.url}
+                                {site.url.replace("https://", "")}
                             </p>
                         </a>
                     ))
