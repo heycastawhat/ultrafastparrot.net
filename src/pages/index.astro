@@ -71,8 +71,10 @@ import SITES from "../../sites.ts";
                             class="bg-card border rounded-lg p-4 text-foreground"
                             href={site.url}
                         >
-                            <h2 class="text-xl">{site.name}</h2>
-                            <p class="text-foreground/75">{site.url}</p>
+                            <h2 class="text-xl break-words">{site.name}</h2>
+                            <p class="text-foreground/75 text-sm overflow-hidden text-ellipsis whitespace-nowrap">
+                                {site.url}
+                            </p>
                         </a>
                     ))
                 }
