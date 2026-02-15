@@ -34,6 +34,12 @@ const SITES: {
     url: "https://aregus.me",
     email: "aregazatyank@outlook.com",
   },
+  {
+    name: "Devtochukwu",
+    slug: "devtochukwu",
+    url: "https://devtochukwu.me",
+    email: "ntmark2004@gmail.com"
+  }
 ];
 
 export default SITES.sort((a, b) => a.name.localeCompare(b.name));
