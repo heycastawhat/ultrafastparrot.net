@@ -25,8 +25,8 @@ const SITES: {
   {
     name: "Lexy",
     slug: "lex",
-    url: "https://personal.apcoding.com.au",
-    email: "hello@apcoding.com.au",
+    url: "https://lexy.boo",
+    email: "me@lexy.boo",
   },
    {
     name: "Areg",
